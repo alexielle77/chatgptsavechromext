@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "CHATGTP Extsaver2    ",
+    "version": "1.0",
+    "description": "A Chrome extension that saves the content of the main element on the current page to a text file.",
+    "permissions": ["activeTab", "scripting","downloads", "tabs"],
+    "background": {
+        "service_worker": "background.js"
+      },
+    "action": {
+        "default_title": "CHATGTP Extsaver2",
+        "default_icon": "/images/icon.png"
+    }
+  }
